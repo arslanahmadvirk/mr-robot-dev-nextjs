@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  ol {
+    list-style: decimal inside;
+    margin-left: 10px;
+    line-height: 30px;
+  }
+  ul {
+    list-style: inside;
+    margin-left: 10px;
+    line-height: 30px;
+  }
+  .bg-redish {
+    @apply bg-[#232323];
+  }
+  .bg-redish::before {
+    content: "";
+    @apply absolute w-40 h-40 rounded-full bg-primary-red/50 top-10 left-10 blur-[96px];
+  }
+  .bg-redish::after {
+    content: "";
+    @apply absolute w-40 h-40 rounded-full bg-primary-red/50 bottom-10 right-10 blur-[96px];
+  }
+
+  #getStarted:hover > #arrow {
+    @apply translate-x-3;
+  }
+}
+
+h1,
+.h1 {
+  @apply text-[28px] font-bold leading-10;
+}
+
+h2,
+.h2 {
+  @apply text-xl font-medium leading-[30px];
+}
+
+h3,
+.h3 {
+  @apply text-lg font-medium leading-6;
+}
+
+h4,
+.h4 {
+  @apply text-base font-semibold;
+}
+
+h5,
+.h5 {
+  @apply text-sm font-normal leading-4;
+}
+
+@layer components {
+  body {
+    @apply bg-primary bg-cover;
+  }
+  .stats-background {
+    background: url("/desktop/stats-background-dark.png"), #851f2b;
+    background-repeat: no-repeat;
+    background-size: 54% 100%;
+    background-position-x: left;
+    
+  }
+  .footer-link > a {
+    @apply hover:text-primary-red;
+  }
+}
+
+.splide__arrow {
+  background-color: #dd0c24 !important;
+}
+.splide__arrow svg {
+  fill: #fff !important;
+}
+
+@media screen and (max-width: 1599px) {
+  #mySplide .splide__arrow--prev {
+    left: 3px !important;
+    width: 32px;
+    height: 32px;
+  }
+  #mySplide .splide__arrow--next {
+    right: 3px !important;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1899px) {
+  #mySplide .splide__arrow--prev {
+    left: 3px !important;
+    width: 35px;
+    height: 35px;
+  }
+  #mySplide .splide__arrow--next {
+    right: 3px !important;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 1599px) {
+  #mySplideTesti .splide__arrow--prev {
+    left: -70px !important;
+    width: 32px;
+    height: 32px;
+  }
+  #mySplideTesti .splide__arrow--next {
+    right: -70px !important;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1600px)  {
+  #mySplideTesti .splide__arrow--prev {
+    left: -70px !important;
+    width: 35px;
+    height: 35px;
+  }
+  #mySplideTesti .splide__arrow--next {
+    right: -70px !important;
+    width: 35px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "service_image": "mvp",
+    "service_name": "mvp",
+    "service_price": 1000,
+    "service_desc": "A Minimum Viable Product to test and verify your concept"
+  },
+  {
+    "service_image": "appp",
+    "service_name": "app",
+    "service_price": 2000,
+    "service_desc": "An extensively developed application designed for scalability and expansion."
+  },
+  {
+    "service_image": "game",
+    "service_name": "game",
+    "service_price": 3000,
+    "service_desc": "A game developed with personalized features and specifications."
+  },
+  {
+    "service_image": "platform",
+    "service_name": "platform",
+    "service_price": 4000,
+    "service_desc": "A comprehensive platform with multiple applications and supporting backend services"
+  }
+]

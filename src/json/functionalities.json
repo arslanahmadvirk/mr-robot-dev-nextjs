@@ -1,0 +1,74 @@
+[
+  {
+    "functionality_image": "booking",
+    "functionality_name": "booking",
+    "functionality_price": 20,
+    "functionality_desc": "Enable the user to schedule or reserve a booking."
+  },
+  {
+    "functionality_image": "ai",
+    "functionality_name": "ai-ml",
+    "functionality_price": 30,
+    "functionality_desc": "Artificial Intelligence or Machine Learning"
+  },
+  {
+    "functionality_image": "vr",
+    "functionality_name": "ar/vr",
+    "functionality_price": 40,
+    "functionality_desc": "Augmented Reality or Virtual Reality Intelligence or Machine Learning"
+  },
+  {
+    "functionality_image": "message",
+    "functionality_name": "chat",
+    "functionality_price": 50,
+    "functionality_desc": "Facilitate in-app communication among users and/or administrators."
+  },
+  {
+    "functionality_image": "cart",
+    "functionality_name": "shopping cart",
+    "functionality_price": 60,
+    "functionality_desc": "Permit users to buy goods or services."
+  },
+  {
+    "functionality_image": "setting",
+    "functionality_name": "3rd party integration",
+    "functionality_price": 70,
+    "functionality_desc": "Incorporate with third-party external entities."
+  },
+  {
+    "functionality_image": "meter",
+    "functionality_name": "dashboard",
+    "functionality_price": 80,
+    "functionality_desc": "A visual interface that displays key metrics and data in a centralized location."
+  },
+  {
+    "functionality_image": "user",
+    "functionality_name": "admin/agent app",
+    "functionality_price": 90,
+    "functionality_desc": "A distinct application for the administrative or agent functions."
+  },
+  {
+    "functionality_image": "payment",
+    "functionality_name": "payments",
+    "functionality_price": 100,
+    "functionality_desc": "Transferring payments to third-party entities."
+  },
+  {
+    "functionality_image": "blockchain",
+    "functionality_name": "blockchain",
+    "functionality_price": 110,
+    "functionality_desc": "Sending payments to external third-party recipients."
+  },
+  {
+    "functionality_image": "unity",
+    "functionality_name": "unity game",
+    "functionality_price": 120,
+    "functionality_desc": "Games developed using the Unity game engine."
+  },
+  {
+    "functionality_image": "star",
+    "functionality_name": "ratings",
+    "functionality_price": 130,
+    "functionality_desc": "A system for users to rate products or services, or for products and services to be rated by users."
+  }
+]

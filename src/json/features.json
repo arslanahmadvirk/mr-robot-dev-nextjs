@@ -1,0 +1,26 @@
+[
+  {
+    "feature_image": "camera",
+    "feature_name": "camera",
+    "feature_price": 200,
+    "feature_desc": "Utilize the camera on the device."
+  },
+  {
+    "feature_image": "geo",
+    "feature_name": "geolocation",
+    "feature_price": 300,
+    "feature_desc": "Access the location of the device."
+  },
+  {
+    "feature_image": "chat",
+    "feature_name": "push notification",
+    "feature_price": 400,
+    "feature_desc": "Push notifications to provide reminders and alerts"
+  },
+  {
+    "feature_image": "blue",
+    "feature_name": "bluetooth integration",
+    "feature_price": 500,
+    "feature_desc": "Incorporation with Bluetooth-enabled devices."
+  }
+]
